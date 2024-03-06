@@ -23,10 +23,10 @@ This project uses the OMDB API to fetch movie data.
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
+<hr>
 
 ## Getting Started
 
-<hr>
 ### Available Scripts
 
 In the project directory, you can run:
