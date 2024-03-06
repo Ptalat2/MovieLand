@@ -1,27 +1,27 @@
-
 # MovieLand
+
 MovieLand is a simple React web application that allows users to search for movies using the OMDB API.
 
-### Features
-Search for movies using a search bar.
-View a list of movies matching the search query.
+## Features
+- Search for movies using a search bar.
+- View a list of movies matching the search query.
+- Click on a movie to view more details.
 
-#### Click on a movie to view more details.
-Technologies Used
-React
-JavaScript
-CSS
-API Reference
+## Technologies Used
+- React
+- JavaScript
+- CSS
+
+## API Reference
 This project uses the OMDB API to fetch movie data.
 
-### Acknowledgements
-Movie icons provided by Flaticon
-Search icon by Freepik
+## Acknowledgements
+- Movie icons provided by Flaticon
+- Search icon by Freepik
 
-### License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
-<br>
-<hr>
+
 
 
 ## Getting Started
