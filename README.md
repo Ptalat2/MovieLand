@@ -26,7 +26,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Getting Started
 
-
+<hr>
 ### Available Scripts
 
 In the project directory, you can run:
