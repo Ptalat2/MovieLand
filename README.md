@@ -1,8 +1,33 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# MovieLand
+MovieLand is a simple React web application that allows users to search for movies using the OMDB API.
 
-## Available Scripts
+### Features
+Search for movies using a search bar.
+View a list of movies matching the search query.
+
+#### Click on a movie to view more details.
+Technologies Used
+React
+JavaScript
+CSS
+API Reference
+This project uses the OMDB API to fetch movie data.
+
+### Acknowledgements
+Movie icons provided by Flaticon
+Search icon by Freepik
+
+### License
+This project is licensed under the MIT License - see the LICENSE file for details.
+<br>
+<hr>
+
+
+## Getting Started
+
+
+### Available Scripts
 
 In the project directory, you can run:
 
