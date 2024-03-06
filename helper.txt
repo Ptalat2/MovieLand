@@ -1,0 +1,51 @@
+
+import './App.css';
+import {useState, useEffect} from 'react';
+
+{/* <>
+means that u can inject html code into this framework
+</> 
+
+you can run java script in {} */}
+
+
+// const Person = (props) => {
+// return <> 
+//   <h1 className="person">Name: {props.name}</h1>
+//   <h2>Last Name: {props.lastName}</h2>
+//   <h2>Age: {props.age}</h2>
+
+
+// </>
+// }
+// // props allow u to pass named parameters like dart but wih using props.property
+// const App = () => {
+//   const name = 'john'
+//   return (
+//     <div className="App">
+//      <h1>yo bro</h1>
+//     <Person  name = {'preet'} lastname ={'talati'} age = {21}/>
+//     <Person  name = {'ayush'} lastname ={'j'} age = {20}/>
+
+//     </div>
+//   );
+// }
+ 
+// NEVER MODIFY STATE MANUALLY
+const App = () => {
+  const [counter, setCounter] = useState(0); // this is called a hook  when u use a command with use in it as a function
+// variable of the prev state exists in prevcount // any name u want and can change it
+useEffect(() => {
+  // setCounter(100); // will not work bc it rendrs the page very time
+  alert(`you have changed the counter to ` + counter)
+}, [counter]);
+  return (
+    <div className="App">
+      <button onClick = {()=> {setCounter(counter-1)}}>-</button>
+      <h1>{counter}</h1>
+      <button onClick = {()=> {setCounter((prevCount => prevCount +1))}}>+</button>  
+    </div>
+  );
+}
+
+export default App;
